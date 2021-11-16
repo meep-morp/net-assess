@@ -21,7 +21,7 @@ export default function Home() {
 		<>
 			<Nav />
 			<HomeContainer>
-				<h2>Your Connection Speed </h2>
+				<h2>Test your Internet Speed </h2>
 				<Progress
 					type="dashboard"
 					strokeColor={{
@@ -35,7 +35,7 @@ export default function Home() {
 				/>
 
 				<Button size="large" loading={!speed} onClick={setConnectionSpeed} type="primary">
-					Test Connection
+					Retest
 				</Button>
 			</HomeContainer>
 		</>
